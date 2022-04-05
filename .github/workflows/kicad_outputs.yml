@@ -279,6 +279,8 @@ jobs:
         cp -r doc_sch/img/pcb/* doc/gen/img || true
         cp -r doc_placement/doc* hw/cam_profi || true
         cp -r doc_pnp/* hw/cam_profi || true
+        cp -r doc_report/* doc/gen || true
+
     
         rm -r doc_img || true
         rm -r doc_cad || true
@@ -287,6 +289,8 @@ jobs:
         rm -r doc_placement || true
         rm -r doc_pnp || true
         rm -r doc_xml || true
+        rm -r doc_report || true
+
         
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
