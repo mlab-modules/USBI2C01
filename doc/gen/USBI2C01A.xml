@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/USBI2C01A.kicad_sch</source>
+    <date>Tue Apr  5 10:01:10 2022</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USBI2C01A.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b50</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b50"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9565d2ee-a4f1-4d08-b2c9-0264233a0d2b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984812875079b91f8bbd</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04cf2f2c-74bf-400d-b4f6-201720df00ed</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf815d51-c956-4c5a-adde-c373cb025b07</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5e3ff8fc1287502a33bad7a3</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="C0805" description=""/>
+      <property name="UST_ID" value="5e3ff8fc1287502a33bad7a3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6241e6d3-a754-45b6-9f7c-e43019b93226</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ZELENA</value>
+      <footprint>untitled:1206_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8895</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="LED1206_2" description=""/>
+      <property name="UST_ID" value="5c70984412875079b91f8895"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3628265-0155-43e2-a467-c40ff783e265</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>CERVENA</value>
+      <footprint>untitled:1206_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8896</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="LED1206_2" description=""/>
+      <property name="UST_ID" value="5c70984412875079b91f8896"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1199146e-a60b-416a-b503-e77d6d2892f9</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>CERVENA</value>
+      <footprint>untitled:1206_2</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f8896</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="LED1206_2" description=""/>
+      <property name="UST_ID" value="5c70984412875079b91f8896"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa918b6d-f6cf-4471-be3b-4ff713f55a2e</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SP1001-04XTG</value>
+      <footprint>untitled:SOT553</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88cc</field>
+      </fields>
+      <libsource lib="MLAB_D" part="D_4xZENER" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f88cc"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae77c3c8-1144-468e-ad5b-a0b4090735bd</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>750mA</value>
+      <footprint>untitled:1812</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f88d2</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="POJISTKA_1812" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f88d2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a74c4b1-6243-4a12-85a2-bc41d346e7aa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470R</value>
+      <footprint>untitled:0805</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8986</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ce7415d-7c22-49f6-8215-488853ccc8c6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470R</value>
+      <footprint>untitled:0805</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8986</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91fe070a-a49b-4bc5-805a-42f23e10d114</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>470R</value>
+      <footprint>untitled:0805</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8986</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8986"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ed2c840-383d-4cbd-bc3b-c4ea4c97b333</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4k7</value>
+      <footprint>untitled:0805</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f8995</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="R0805" description=""/>
+      <property name="UST_ID" value="5c70984612875079b91f8995"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0554bea0-89b2-4e25-9ea3-4c73921c94cb</tstamps>
+    </comp>
+    <comp ref="SV1">
+      <value>MA02-1</value>
+      <footprint>untitled:MA02-1</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_1x02" description="1x02 2.54 mm pitch header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49575217-40b0-4890-8acf-12982cca52b5</tstamps>
+    </comp>
+    <comp ref="SV2">
+      <value>MA05-2</value>
+      <footprint>untitled:MA05-2</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63489ebf-0f52-43a6-a0ab-158b1a7d4988</tstamps>
+    </comp>
+    <comp ref="SV3">
+      <value>MA03-1</value>
+      <footprint>untitled:MA03-1</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_1x03" description="1x03 2.54 mm pitch header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bca658b-a598-4669-a7cb-3f9b5f47bb5a</tstamps>
+    </comp>
+    <comp ref="SV4">
+      <value>MA03-2</value>
+      <footprint>untitled:MA03-2</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>278a91dc-d57d-4a5c-a045-34b6bd84131f</tstamps>
+    </comp>
+    <comp ref="SV5">
+      <value>MA05-2</value>
+      <footprint>untitled:MA05-2</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c2999b2-1cf1-4204-9d23-243401b77aa3</tstamps>
+    </comp>
+    <comp ref="SV6">
+      <value>MA03-2</value>
+      <footprint>untitled:MA03-2</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73ee7e03-97a8-4121-b568-c25f3934a935</tstamps>
+    </comp>
+    <comp ref="SV7">
+      <value>MA01-1</value>
+      <footprint>untitled:MA01-1</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_1x01" description="1x01 2.54 mm pitch header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aae6bc05-6036-4fc6-8be7-c70daf5c8932</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>CP2112</value>
+      <footprint>untitled:QFN-24</footprint>
+      <fields>
+        <field name="UST_ID">5c70984612875079b91f89b2</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="CP2112" description=""/>
+      <property name="UST_ID" value="5c70984612875079b91f89b2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e091e263-c616-48ef-a460-465c70218987</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>USB_B</value>
+      <footprint>untitled:USB_B</footprint>
+      <fields>
+        <field name="UST_ID">5c70984412875079b91f87a8</field>
+      </fields>
+      <libsource lib="untitled-eagle-import" part="USB_B" description=""/>
+      <property name="UST_ID" value="5c70984412875079b91f87a8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a1a4d88-972a-46ce-b25e-6cb796bd41f7</tstamps>
+    </comp>
+    <comp ref="X3">
+      <value>SROUB3M</value>
+      <footprint>untitled:SROUB3M</footprint>
+      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>718e5c6d-0e4c-46d8-a149-2f2bfc54c7f1</tstamps>
+    </comp>
+    <comp ref="X4">
+      <value>SROUB3M</value>
+      <footprint>untitled:SROUB3M</footprint>
+      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>475ed8b3-90bf-48cd-bce5-d8f48b689541</tstamps>
+    </comp>
+    <comp ref="X5">
+      <value>SROUB3M</value>
+      <footprint>untitled:SROUB3M</footprint>
+      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>083becc8-e25d-4206-9636-55457650bbe3</tstamps>
+    </comp>
+    <comp ref="X6">
+      <value>SROUB3M</value>
+      <footprint>untitled:SROUB3M</footprint>
+      <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>051b8cb0-ae77-4e09-98a7-bf2103319e66</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MLAB_D" part="D_4xZENER">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_4xZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_1x01">
+      <description>1x01 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_1x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_1x02">
+      <description>1x02 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_1x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_1x03">
+      <description>1x03 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_1x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL">
+      <description>2x03 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03_PARALLEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL">
+      <description>2x05 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x05_PARALLEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="7" name="" type="input"/>
+        <pin num="8" name="" type="input"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="untitled-eagle-import" part="C0805">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0805</field>
+        <field name="Footprint">untitled:C0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="untitled-eagle-import" part="CP2112">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CP2112</field>
+        <field name="Footprint">untitled:QFN-24</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="SDA" type="bidirectional"/>
+        <pin num="P$2" name="GND" type="bidirectional"/>
+        <pin num="P$3" name="D+" type="bidirectional"/>
+        <pin num="P$4" name="D-" type="bidirectional"/>
+        <pin num="P$5" name="VIO" type="bidirectional"/>
+        <pin num="P$6" name="VDD" type="bidirectional"/>
+        <pin num="P$7" name="REGIN" type="bidirectional"/>
+        <pin num="P$8" name="VBUS" type="bidirectional"/>
+        <pin num="P$9" name="/RST" type="bidirectional"/>
+        <pin num="P$11" name="SUSPEND" type="bidirectional"/>
+        <pin num="P$12" name="GPIO7-CLK" type="bidirectional"/>
+        <pin num="P$13" name="GPIO6" type="bidirectional"/>
+        <pin num="P$14" name="GPIO5" type="bidirectional"/>
+        <pin num="P$15" name="GPIO4" type="bidirectional"/>
+        <pin num="P$16" name="VPP" type="bidirectional"/>
+        <pin num="P$17" name="/SUSPEND" type="bidirectional"/>
+        <pin num="P$20" name="GPIO3" type="bidirectional"/>
+        <pin num="P$21" name="GPIO2" type="bidirectional"/>
+        <pin num="P$22" name="GPIO1-RXT" type="bidirectional"/>
+        <pin num="P$23" name="GPIO0-TXT" type="bidirectional"/>
+        <pin num="P$24" name="SCL" type="bidirectional"/>
+        <pin num="P$25" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="untitled-eagle-import" part="LED1206_2">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED1206_2</field>
+        <field name="Footprint">untitled:1206_2</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="untitled-eagle-import" part="POJISTKA_1812">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">POJISTKA_1812</field>
+        <field name="Footprint">untitled:1812</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="untitled-eagle-import" part="R0805">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R0805</field>
+        <field name="Footprint">untitled:0805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="untitled-eagle-import" part="SROUB3M">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SROUB3M</field>
+        <field name="Footprint">untitled:SROUB3M</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="P$1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="untitled-eagle-import" part="USB_B">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">USB_B</field>
+        <field name="Footprint">untitled:USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V" type="bidirectional"/>
+        <pin num="2" name="DATA-" type="bidirectional"/>
+        <pin num="3" name="DATA+" type="bidirectional"/>
+        <pin num="4" name="GND" type="bidirectional"/>
+        <pin num="GND" name="GND" type="bidirectional"/>
+        <pin num="GND2" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="untitled-eagle-import">
+      <uri>/github/workspace/hw/sch_pcb/untitled-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SV1" pin="1" pintype="input"/>
+      <node ref="SV3" pin="1" pintype="input"/>
+      <node ref="X1" pin="P$6" pinfunction="VDD" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SV3" pin="3" pintype="input"/>
+      <node ref="SV6" pin="3" pintype="input"/>
+      <node ref="SV6" pin="4" pintype="input"/>
+      <node ref="X1" pin="P$7" pinfunction="REGIN" pintype="bidirectional"/>
+      <node ref="X1" pin="P$8" pinfunction="VBUS" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D1" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="SV2" pin="1" pintype="input"/>
+      <node ref="SV2" pin="10" pintype="input"/>
+      <node ref="SV2" pin="2" pintype="input"/>
+      <node ref="SV2" pin="9" pintype="input"/>
+      <node ref="SV6" pin="1" pintype="input"/>
+      <node ref="SV6" pin="2" pintype="input"/>
+      <node ref="SV6" pin="5" pintype="input"/>
+      <node ref="SV6" pin="6" pintype="input"/>
+      <node ref="X1" pin="P$2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="P$25" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X2" pin="4" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X2" pin="GND" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X2" pin="GND2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X3" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
+      <node ref="X4" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
+      <node ref="X5" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
+      <node ref="X6" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X1" pin="P$16" pinfunction="VPP" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-PadK)">
+      <node ref="D2" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="SV4" pin="1" pintype="input"/>
+      <node ref="SV4" pin="2" pintype="input"/>
+      <node ref="X1" pin="P$23" pinfunction="GPIO0-TXT" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D3-PadK)">
+      <node ref="D3" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="SV4" pin="3" pintype="input"/>
+      <node ref="SV4" pin="4" pintype="input"/>
+      <node ref="X1" pin="P$22" pinfunction="GPIO1-RXT" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(D4-Pad4)">
+      <node ref="D4" pin="4" pintype="passive"/>
+      <node ref="X1" pin="P$4" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="X2" pin="2" pinfunction="DATA-" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(D4-Pad5)">
+      <node ref="D4" pin="5" pintype="passive"/>
+      <node ref="X1" pin="P$3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="X2" pin="3" pinfunction="DATA+" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="+5V" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X1" pin="P$9" pinfunction="/RST" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SV1" pin="2" pintype="input"/>
+      <node ref="X1" pin="P$5" pinfunction="VIO" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(SV2-Pad3)">
+      <node ref="SV2" pin="3" pintype="input"/>
+      <node ref="SV2" pin="4" pintype="input"/>
+      <node ref="X1" pin="P$1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(SV2-Pad5)">
+      <node ref="SV2" pin="5" pintype="input"/>
+      <node ref="SV2" pin="6" pintype="input"/>
+      <node ref="SV3" pin="2" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(SV2-Pad7)">
+      <node ref="SV2" pin="7" pintype="input"/>
+      <node ref="SV2" pin="8" pintype="input"/>
+      <node ref="X1" pin="P$24" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Net-(SV4-Pad5)">
+      <node ref="SV4" pin="5" pintype="input"/>
+      <node ref="SV4" pin="6" pintype="input"/>
+      <node ref="X1" pin="P$21" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(SV5-Pad1)">
+      <node ref="SV5" pin="1" pintype="input"/>
+      <node ref="SV5" pin="2" pintype="input"/>
+      <node ref="X1" pin="P$20" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(SV5-Pad3)">
+      <node ref="SV5" pin="3" pintype="input"/>
+      <node ref="SV5" pin="4" pintype="input"/>
+      <node ref="X1" pin="P$15" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(SV5-Pad5)">
+      <node ref="SV5" pin="5" pintype="input"/>
+      <node ref="SV5" pin="6" pintype="input"/>
+      <node ref="X1" pin="P$14" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(SV5-Pad7)">
+      <node ref="SV5" pin="7" pintype="input"/>
+      <node ref="SV5" pin="8" pintype="input"/>
+      <node ref="X1" pin="P$13" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(SV5-Pad10)">
+      <node ref="SV5" pin="10" pintype="input"/>
+      <node ref="SV5" pin="9" pintype="input"/>
+      <node ref="X1" pin="P$12" pinfunction="GPIO7-CLK" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(SV7-Pad1)">
+      <node ref="SV7" pin="1" pintype="input"/>
+      <node ref="X1" pin="P$17" pinfunction="/SUSPEND" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(D4-Pad3)">
+      <node ref="D4" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(X1-PadP$11)">
+      <node ref="X1" pin="P$11" pinfunction="SUSPEND" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
