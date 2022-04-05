@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"C1","1uF","C_0805_2012Metric",154.5336,-111.9886,0.0000,bottom
+"C2","10uF","C_0805_2012Metric",144.8499,-107.5436,-90.0000,bottom
+"C3","100nF","C_0805_2012Metric",146.9136,-107.5436,-90.0000,bottom
+"C4","4u7","C_0805_2012Metric",152.4698,-100.2411,90.0000,bottom
