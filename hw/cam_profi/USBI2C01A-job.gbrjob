@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "6.0.4-6f826c9f35~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-04-05T10:01:07+00:00"
+    "CreationDate": "2022-04-05T12:47:55+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "USBI2C01A",
       "GUID": "55534249-3243-4303-9141-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": "I2CUSB01A"
     },
     "Size": {
       "X": 30.022,
@@ -19,7 +19,8 @@
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "HAL lead-free",
+    "Castellated": true
   },
   "DesignRules": [
     {
@@ -82,6 +83,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Top Silk Screen"
     },
     {
@@ -90,24 +92,31 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
@@ -116,6 +125,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Bottom Silk Screen"
     }
   ]
