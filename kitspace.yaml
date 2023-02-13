@@ -5,5 +5,5 @@ eda:
 gerbers: hw/cam_profi/
 homepage: false
 mark: 50
-site: https://github.com/mlab-modules/USBI2C01USBI2C01
-summary: " USB device to I\xB2C master adapter with Linux kernel support"
+site: https://github.com/mlab-modules/USBI2C01
+summary: "USB device to I\xB2C master adapter with Linux kernel support"
