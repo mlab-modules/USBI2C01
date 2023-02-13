@@ -126,7 +126,7 @@ jobs:
           path: |
             ${{ env.dir }}_docs/**/*.pdf
             ${{ env.dir }}_docs/**/*.svg
-            
+            ${{ env.dir }}_docs/**/*.csv
 
   report:
     runs-on: ubuntu-latest
