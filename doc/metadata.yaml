@@ -1,0 +1,46 @@
+description: " USB device to I\xB2C master adapter with Linux kernel support"
+github_branch: USBI2C01A
+github_repo: USBI2C01
+github_url: https://github.com/mlab-modules/USBI2C01
+homepage: false
+images:
+- doc/img/USBI2C01A_MAG01A_top_big.jpg
+- doc/img/USBI2C01A_top_small.jpg
+- doc/img/USBI2C01A_top_big.jpg
+- doc/assets/graphics/images/Li-ion-Charger.jpg
+- doc/assets/graphics/images/MLAB_mosaic.jpg
+- doc/assets/graphics/images/RMDS02E.jpg
+- doc/assets/graphics/images/ACOUNTER01A.jpg
+- doc/assets/graphics/images/RSMS01B.JPG
+- doc/gen/img/USBI2C01A-top.png
+- doc/gen/img/USBI2C01A-bottom.png
+- doc/gen/img/pcb/USBI2C01A-top.png
+- doc/gen/img/pcb/USBI2C01A-bottom.png
+- doc/img/USBI2C01A_QRcode.png
+- doc/assets/graphics/logo_MLAB_long.png
+- doc/assets/graphics/logo_MLAB_short.png
+- doc/assets/graphics/images/DIVISEK01.png
+- doc/gen/USBI2C01A-schematic.svg
+- doc/assets/graphics/powered_by_MLAB.svg
+- doc/assets/graphics/logo_MLAB_long.svg
+- doc/assets/graphics/MLAB_inside.svg
+- doc/assets/graphics/logo_MLAB_short.svg
+- doc/assets/templates/Fritzing/basic_pbutton.svg
+- doc/assets/templates/Fritzing/generic-male-header_bread_3.svg
+- doc/assets/templates/Fritzing/usb_connector.svg
+- doc/assets/templates/Fritzing/generic-male-header_bread_2x3.svg
+- doc/assets/templates/Fritzing/generic-male-header_bread_2x8.svg
+- doc/assets/templates/Fritzing/generic-male-header_bread_2.svg
+- doc/assets/templates/Fritzing/generic_male_pin_header_1_100mil_bread.svg
+- doc/assets/templates/Fritzing/generic-male-header_bread_8.svg
+- doc/assets/templates/Fritzing/src/M3.svg
+mark: 50
+mod_scheme: doc/gen/USBI2C01A-schematic.pdf
+tags:
+- usb-hid
+- usb-devices
+- i2c
+- i2c-bus
+- i2c-interface
+- i2c-master
+title: USBI2C01
