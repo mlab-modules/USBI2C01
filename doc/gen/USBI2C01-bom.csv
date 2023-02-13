@@ -1,0 +1,36 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,UST_ID
+1,,C0805,C3,100nF,C_0805_2012Metric,1, ,,5c70984712875079b91f8b4c
+2,,C0805,C1,1uF,C_0805_2012Metric,1, ,,5c70984712875079b91f8b50
+3,,C0805,C4,4u7,C_0805_2012Metric,1, ,,5e3ff8fc1287502a33bad7a3
+4,,C0805,C2,10uF,C_0805_2012Metric,1, ,,5c70984812875079b91f8bbd
+5,,LED1206_2,D1,Green,1206_2,1, ,,5c70984412875079b91f8895
+6,,LED1206_2,D2 D3,Red,1206_2,2, ,,5c70984412875079b91f8896
+7,,D_4xZENER,D4,SP1001-04XTG,SOT553,1, ,,5c70984512875079b91f88cc
+8,,POJISTKA_1812,P1,750mA,1812,1, ,,5c70984512875079b91f88d2
+9,,R0805,R1 R3 R4,470R,0805,3, ,,5c70984512875079b91f8986
+10,,R0805,R5,4k7,0805,1, ,,5c70984612875079b91f8995
+11,1x01 2.54 mm pitch header,HEADER_1x01,SV7,MA01-1,MA01-1,1, ,,
+12,1x02 2.54 mm pitch header,HEADER_1x02,SV1,MA02-1,MA02-1,1, ,,
+13,1x03 2.54 mm pitch header,HEADER_1x03,SV3,MA03-1,MA03-1,1, ,,
+14,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,SV4 SV6,MA03-2,MA03-2,2, ,,
+15,"2x05 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x05_PARALLEL,SV2 SV5,MA05-2,MA05-2,2, ,,
+16,,CP2112,X1,CP2112,QFN-24,1, ,,5c70984612875079b91f89b2
+17,,SROUB3M,X3 X4 X5 X6,SROUB3M,SROUB3M,4, ,,
+18,,USB_B,X2,USB_B,USB_B,1, ,,5c70984412875079b91f87a8
+
+
+
+
+
+Project info:
+Schematic:,USBI2C01
+Variant:,default
+Revision:,A
+Date:,2023-02-13
+KiCad Version:,6.0.10+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,18
+Component Count:,26
+Fitted Components:,26
+Number of PCBs:,1
+Total Components:,26

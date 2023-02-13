@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/github/workspace/hw/sch_pcb/USBI2C01A.kicad_sch</source>
-    <date>Wed Apr  6 13:03:57 2022</date>
-    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <source>/github/workspace/hw/sch_pcb/USBI2C01.kicad_sch</source>
+    <date>Mon Feb 13 18:50:23 2023</date>
+    <tool>Eeschema 6.0.10+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company>MLAB</company>
-        <rev/>
-        <date/>
-        <source>USBI2C01A.kicad_sch</source>
-        <comment number="1" value=""/>
+        <title>USBI2C01</title>
+        <company>MLAB.cz</company>
+        <rev>A</rev>
+        <date>2023-02-13</date>
+        <source>USBI2C01.kicad_sch</source>
+        <comment number="1" value="USB to I²C master adapter\nwith Linux kernel support "/>
         <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="3" value="jacho@mlab.cz"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -33,7 +33,7 @@
       <libsource lib="untitled-eagle-import" part="C0805" description=""/>
       <property name="UST_ID" value="5c70984712875079b91f8b50"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9565d2ee-a4f1-4d08-b2c9-0264233a0d2b</tstamps>
     </comp>
@@ -46,7 +46,7 @@
       <libsource lib="untitled-eagle-import" part="C0805" description=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>04cf2f2c-74bf-400d-b4f6-201720df00ed</tstamps>
     </comp>
@@ -59,7 +59,7 @@
       <libsource lib="untitled-eagle-import" part="C0805" description=""/>
       <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cf815d51-c956-4c5a-adde-c373cb025b07</tstamps>
     </comp>
@@ -72,12 +72,12 @@
       <libsource lib="untitled-eagle-import" part="C0805" description=""/>
       <property name="UST_ID" value="5e3ff8fc1287502a33bad7a3"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6241e6d3-a754-45b6-9f7c-e43019b93226</tstamps>
     </comp>
     <comp ref="D1">
-      <value>ZELENA</value>
+      <value>Green</value>
       <footprint>untitled:1206_2</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8895</field>
@@ -85,12 +85,12 @@
       <libsource lib="untitled-eagle-import" part="LED1206_2" description=""/>
       <property name="UST_ID" value="5c70984412875079b91f8895"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f3628265-0155-43e2-a467-c40ff783e265</tstamps>
     </comp>
     <comp ref="D2">
-      <value>CERVENA</value>
+      <value>Red</value>
       <footprint>untitled:1206_2</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8896</field>
@@ -98,12 +98,12 @@
       <libsource lib="untitled-eagle-import" part="LED1206_2" description=""/>
       <property name="UST_ID" value="5c70984412875079b91f8896"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1199146e-a60b-416a-b503-e77d6d2892f9</tstamps>
     </comp>
     <comp ref="D3">
-      <value>CERVENA</value>
+      <value>Red</value>
       <footprint>untitled:1206_2</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8896</field>
@@ -111,7 +111,7 @@
       <libsource lib="untitled-eagle-import" part="LED1206_2" description=""/>
       <property name="UST_ID" value="5c70984412875079b91f8896"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fa918b6d-f6cf-4471-be3b-4ff713f55a2e</tstamps>
     </comp>
@@ -124,7 +124,7 @@
       <libsource lib="MLAB_D" part="D_4xZENER" description=""/>
       <property name="UST_ID" value="5c70984512875079b91f88cc"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ae77c3c8-1144-468e-ad5b-a0b4090735bd</tstamps>
     </comp>
@@ -137,7 +137,7 @@
       <libsource lib="untitled-eagle-import" part="POJISTKA_1812" description=""/>
       <property name="UST_ID" value="5c70984512875079b91f88d2"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7a74c4b1-6243-4a12-85a2-bc41d346e7aa</tstamps>
     </comp>
@@ -150,7 +150,7 @@
       <libsource lib="untitled-eagle-import" part="R0805" description=""/>
       <property name="UST_ID" value="5c70984512875079b91f8986"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7ce7415d-7c22-49f6-8215-488853ccc8c6</tstamps>
     </comp>
@@ -163,7 +163,7 @@
       <libsource lib="untitled-eagle-import" part="R0805" description=""/>
       <property name="UST_ID" value="5c70984512875079b91f8986"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>91fe070a-a49b-4bc5-805a-42f23e10d114</tstamps>
     </comp>
@@ -176,7 +176,7 @@
       <libsource lib="untitled-eagle-import" part="R0805" description=""/>
       <property name="UST_ID" value="5c70984512875079b91f8986"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3ed2c840-383d-4cbd-bc3b-c4ea4c97b333</tstamps>
     </comp>
@@ -189,7 +189,7 @@
       <libsource lib="untitled-eagle-import" part="R0805" description=""/>
       <property name="UST_ID" value="5c70984612875079b91f8995"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0554bea0-89b2-4e25-9ea3-4c73921c94cb</tstamps>
     </comp>
@@ -198,7 +198,7 @@
       <footprint>untitled:MA02-1</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_1x02" description="1x02 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>49575217-40b0-4890-8acf-12982cca52b5</tstamps>
     </comp>
@@ -207,7 +207,7 @@
       <footprint>untitled:MA05-2</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63489ebf-0f52-43a6-a0ab-158b1a7d4988</tstamps>
     </comp>
@@ -216,7 +216,7 @@
       <footprint>untitled:MA03-1</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_1x03" description="1x03 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3bca658b-a598-4669-a7cb-3f9b5f47bb5a</tstamps>
     </comp>
@@ -225,7 +225,7 @@
       <footprint>untitled:MA03-2</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>278a91dc-d57d-4a5c-a045-34b6bd84131f</tstamps>
     </comp>
@@ -234,7 +234,7 @@
       <footprint>untitled:MA05-2</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9c2999b2-1cf1-4204-9d23-243401b77aa3</tstamps>
     </comp>
@@ -243,7 +243,7 @@
       <footprint>untitled:MA03-2</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>73ee7e03-97a8-4121-b568-c25f3934a935</tstamps>
     </comp>
@@ -252,7 +252,7 @@
       <footprint>untitled:MA01-1</footprint>
       <libsource lib="MLAB_HEADER" part="HEADER_1x01" description="1x01 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aae6bc05-6036-4fc6-8be7-c70daf5c8932</tstamps>
     </comp>
@@ -265,7 +265,7 @@
       <libsource lib="untitled-eagle-import" part="CP2112" description=""/>
       <property name="UST_ID" value="5c70984612875079b91f89b2"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e091e263-c616-48ef-a460-465c70218987</tstamps>
     </comp>
@@ -278,7 +278,7 @@
       <libsource lib="untitled-eagle-import" part="USB_B" description=""/>
       <property name="UST_ID" value="5c70984412875079b91f87a8"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0a1a4d88-972a-46ce-b25e-6cb796bd41f7</tstamps>
     </comp>
@@ -287,7 +287,7 @@
       <footprint>untitled:SROUB3M</footprint>
       <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>718e5c6d-0e4c-46d8-a149-2f2bfc54c7f1</tstamps>
     </comp>
@@ -296,7 +296,7 @@
       <footprint>untitled:SROUB3M</footprint>
       <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>475ed8b3-90bf-48cd-bce5-d8f48b689541</tstamps>
     </comp>
@@ -305,7 +305,7 @@
       <footprint>untitled:SROUB3M</footprint>
       <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>083becc8-e25d-4206-9636-55457650bbe3</tstamps>
     </comp>
@@ -314,7 +314,7 @@
       <footprint>untitled:SROUB3M</footprint>
       <libsource lib="untitled-eagle-import" part="SROUB3M" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="USBI2C01A.kicad_sch"/>
+      <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>051b8cb0-ae77-4e09-98a7-bf2103319e66</tstamps>
     </comp>
