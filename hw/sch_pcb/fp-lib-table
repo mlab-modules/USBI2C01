@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "untitled")(type "KiCad")(uri "$(KIPRJMOD)/USBI2C01A.pretty")(options "")(descr ""))
+  (lib (name "untitled")(type "KiCad")(uri "$(KIPRJMOD)/USBI2C01.pretty")(options "")(descr ""))
 )
