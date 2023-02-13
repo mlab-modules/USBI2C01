@@ -35,7 +35,8 @@ images:
 - doc/assets/templates/Fritzing/generic-male-header_bread_8.svg
 - doc/assets/templates/Fritzing/src/M3.svg
 mark: 50
-mod_scheme: doc/gen/USBI2C01A-schematic.pdf
+mod_ibom: hw/cam_profi/ibom/USBI2C01-ibom.html
+mod_scheme: doc/gen/USBI2C01-schematic.pdf
 tags:
 - usb-hid
 - usb-devices
