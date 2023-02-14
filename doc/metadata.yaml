@@ -1,10 +1,10 @@
+categories:
+- USB
+- Converter
 description: "USB device to I\xB2C master adapter with Linux kernel support"
 github_branch: USBI2C01A
 github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
-categories:
-- USB
-- Converter
 homepage: false
 images:
 - doc/img/USBI2C01A_MAG01A_top_big.jpg
