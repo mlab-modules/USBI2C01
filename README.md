@@ -6,7 +6,7 @@
 USB device to I²C master adapter. It is based on [CP2112](https://www.silabs.com/interface/usb-bridges/classic/device.cp2112?tab=specs) integrated USB brigde with native Linux kernel support. 
 Therefore device create kernel accesible I2C interface intstantly on almost any Linux distributions. 
 
-![USBI2C01A](/doc/img/USBI2C01A_top_big.jpg)
+![USBI2C01A](doc/img/USBI2C01A_top_big.jpg)
 
 <!--- description --->
 
