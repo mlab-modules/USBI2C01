@@ -1,4 +1,4 @@
-bom: hw/sch_pcb/USBI2C01.kicad_pcb
+bom: ''
 eda:
   pcb: hw/sch_pcb/USBI2C01.kicad_pcb
   type: kicad
