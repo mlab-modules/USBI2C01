@@ -1,7 +1,7 @@
 name: Update actions and assets repository
 on:
   schedule:
-  - cron: "0 */2 * * *"
+  - cron: "0 */24 * * *"
   
   workflow_dispatch:
   
