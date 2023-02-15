@@ -1,4 +1,5 @@
 bom: hw/sch_pcb/USBI2C01.kicad_pcb
+color: white
 eda:
   pcb: hw/sch_pcb/USBI2C01.kicad_pcb
   type: kicad
