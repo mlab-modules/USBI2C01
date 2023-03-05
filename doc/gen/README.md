@@ -23,17 +23,17 @@ Special features:
 
 Stackup:
 
-| Name                 | Type                 | Color    | Thickness | Material        | Epsilon_r | Loss tangent |
-|----------------------|----------------------|----------|-----------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      | Black    |           |                 |           |              |
-| F.Paste              | Top Solder Paste     |          |           |                 |           |              |
-| F.Mask               | Top Solder Mask      | White    |        10 |                 |           |              |
-| F.Cu                 | copper               |          |        35 |                 |           |              |
-| dielectric 1         | core                 |          |      1510 | FR4             |       4.5 |        0.020 |
-| B.Cu                 | copper               |          |        35 |                 |           |              |
-| B.Mask               | Bottom Solder Mask   | White    |        10 |                 |           |              |
-| B.Paste              | Bottom Solder Paste  |          |           |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   | Black    |           |                 |           |              |
+| Name                 | Type                 | Color            | Thickness | Material        | Epsilon_r | Loss tangent |
+|----------------------|----------------------|------------------|-----------|-----------------|-----------|--------------|
+| F.SilkS              | Top Silk Screen      | Black            |           |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |           |                 |           |              |
+| F.Mask               | Top Solder Mask      | White            |        10 |                 |           |              |
+| F.Cu                 | copper               |                  |        35 |                 |           |              |
+| dielectric 1         | core                 |                  |      1510 | FR4             |       4.5 |        0.020 |
+| B.Cu                 | copper               |                  |        35 |                 |           |              |
+| B.Mask               | Bottom Solder Mask   | White            |        10 |                 |           |              |
+| B.Paste              | Bottom Solder Paste  |                  |           |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   | Black            |           |                 |           |              |
 
 # Important sizes
 
@@ -53,7 +53,8 @@ Via: 0.91/0.5 mm (36/20 mils)
 
 - By design rules: 0.4/0.3 mm (16/12 mils)
 - Micro via: no [0.2/0.1 mm (8/4 mils)]
-- Burried/blind via: no
+- Buried/blind via: no
+- Total: 11 (thru: 11 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.15 mm (6 mils)
 
