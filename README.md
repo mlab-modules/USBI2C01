@@ -15,7 +15,7 @@ I2C is connected to the 5-pin header in the MLAB I2C pinout. This is specific in
 
 The converter is equipped with a set of GPIO ports that can be controlled via USB. In addition to communication via I2C, you can, for example, check the status of digital signals or control them with software. Similarly, you can use LEDs on the module to indicate your own states because they are software-controllable. 
 
-## Parameters
+### Parameters
  * USB-HID to SMBus (I2C) master bridge
  * 8 GPIO ports (2 equipted with LED indicators)
    * Configurable as Input/Output, Open-drain/Push-pull
