@@ -9,11 +9,23 @@ Thanks to that, the device can be used with other operating systems as well, as 
 
 ![USBI2C01A](doc/img/USBI2C01A_sides.png)
 
-The module is connected to USB using a USB-B connector, which provides a quality connection to the computer. The module contains three LED diodes that indicate power and communication via the I2C bus in the default configuration. The communication pins are doubled, so you will have enough space to connect your circuit.
+The module is connected to computer using a USB-B connector, which provides a quality connection to the computer. The module contains three LED diodes that indicate power and communication via the I2C bus in the default configuration. The communication pins are doubled, so you will have enough space to connect your circuit.
 
 I2C is connected to the 5-pin header in the MLAB I2C pinout. This is specific in that the rotation of cable (connector) will only result in not functioning state. However, there is no risk of electrical damage. Using jumpers, it is possible to set the power supply voltage in the I2C bus connector. This can either be 5V from USB, which is protected by a 750 mA fuse, or 3.45V from the integrated LDO with a maximum allowed load of 100 mA.
 
 The converter is equipped with a set of GPIO ports that can be controlled via USB. In addition to communication via I2C, you can, for example, check the status of digital signals or control them with software. Similarly, you can use LEDs on the module to indicate your own states because they are software-controllable. 
+
+## Parameters
+ * USB-HID to SMBus (I2C) master bridge
+ * 8 GPIO ports (2 equipted with LED indicators)
+   * Configurable as Input/Output, Open-drain/Push-pull
+   * Configurable as clock output (48 MHz to 94 kHz)
+ * Selectable 5V or 3.3V power supply
+ * USB-B - FullSpeed USB support (up to 12 Mbps)
+   * Powered from USB
+ * Support in linux kernel
+ * Configurable clock speed, 7bit i2c adressing
+ * Ready to use 
 
 ![USBI2C01A USB to I2C master converter](doc/img/USBI2C01A_small-5.jpg)
 
