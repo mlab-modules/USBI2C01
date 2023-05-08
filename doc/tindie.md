@@ -5,7 +5,7 @@ This converter is based on the [CP2112](https://www.silabs.com/interface/usb-bri
 directly on almost any Linux distribution. If your computer doesn't support the CP2112 converter, you can use the USB-HID interface of the converter,
 making it compatible with other operating systems such as Windows or Android.
 
-![](https://github.com/mlab-modules/USBI2C01/blob/385029d61cb48975566b024203a44f2382d34088/doc/img/USBI2C01A_small-5.jpg)
+![Module](https://github.com/mlab-modules/USBI2C01/blob/385029d61cb48975566b024203a44f2382d34088/doc/img/USBI2C01A_small-5.jpg)
 
 The module is connected to the computer using a USB-B connector, which provides a high-quality connection. Converter contains three LED diodes
 that indicate power and communication via the I2C bus in the default configuration. Communication pins are doubled, that allows you create complex devices. 
@@ -36,4 +36,4 @@ The USB device behaves as a standard USB-HID device, so you don't need non-stand
 In the case of Linux, the drivers are available in the kernel. Therefore, the module creates the system-wide I2C bus. This is the same interface that you can
 find on single-board computers like the Raspberry Pi. Thanks to this, you can run your Raspberry Pi programs directly on your computer.
 
-** More informations about device, you can find in [README](https://github.com/mlab-modules/USBI2C01).
+**More informations about device, you can find in [README](https://github.com/mlab-modules/USBI2C01)**
