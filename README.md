@@ -29,6 +29,11 @@ The converter is equipped with a set of GPIO ports that can be controlled via US
 
 ![USBI2C01A USB to I2C master converter](doc/img/USBI2C01A_small-5.jpg)
 
+## How to get this device? 
+
+This device is sold by [Universal Scientific Technologies s.r.o.](www.ust.cz). If you are interested in our equipment, do not be afraid to [contact us](mailto:sale@ust.cz
+).
+
 ## Drivers and software
 The USB device behaves as a standard [USB-HID](https://en.wikipedia.org/wiki/USB_human_interface_device_class) device, so you do not need non-standard drivers. It also allows control of devices in the I2C system bus.
 
