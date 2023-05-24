@@ -7,20 +7,20 @@ github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
 homepage: false
 images:
-- doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_small-7.jpg
+- doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_top_small.jpg
+- doc/img/USBI2C01A_small-4.jpg
 - doc/img/USBI2C01A_small-5.jpg
 - doc/img/USBI2C01A_MAG01A_top_big.jpg
-- doc/img/USBI2C01A_small-4.jpg
-- doc/img/USBI2C01A_QRcode.png
 - doc/img/USBI2C01A_sides.png
+- doc/img/USBI2C01A_QRcode.png
 - doc/gen/img/USBI2C01-bottom.png
 - doc/gen/img/USBI2C01-top.png
+- hw/cam_profi/docs/USBI2C01A-assembly_page_02.svg
+- hw/cam_profi/docs/USBI2C01A-assembly_page_01.svg
 - doc/gen/USBI2C01-schematic.svg
 - doc/gen/img/USBI2C01-top.svg
-- hw/cam_profi/docs/USBI2C01A-assembly_page_01.svg
-- hw/cam_profi/docs/USBI2C01A-assembly_page_02.svg
 mark: 50
 mod_ibom: hw/cam_profi/ibom/USBI2C01-ibom.html
 mod_scheme: doc/gen/USBI2C01-schematic.pdf
