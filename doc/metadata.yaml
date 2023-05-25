@@ -3,6 +3,163 @@ categories:
 - Converter
 description: "USB device to I\xB2C master adapter with Linux kernel support"
 github_branch: USBI2C01A
+github_branches: !!python/object:github.PaginatedList.PaginatedList
+  _PaginatedListBase__elements: []
+  _PaginatedList__contentClass: !!python/name:github.Branch.Branch ''
+  _PaginatedList__firstParams: !!python/tuple []
+  _PaginatedList__firstUrl: https://api.github.com/repos/mlab-modules/USBI2C01/branches
+  _PaginatedList__headers: null
+  _PaginatedList__list_item: items
+  _PaginatedList__nextParams: {}
+  _PaginatedList__nextUrl: https://api.github.com/repos/mlab-modules/USBI2C01/branches
+  _PaginatedList__requester: !!python/object:github.Requester.Requester
+    FIX_REPO_GET_GIT_REF: true
+    _Requester__app_auth: null
+    _Requester__authorizationHeader: token ghs_jOWLWN50X3I9CJsVHz1ORVrvoY6XyH4DWY7p
+    _Requester__base_url: https://api.github.com
+    _Requester__connection: !!python/object:github.Requester.HTTPSRequestsConnectionClass
+      adapter: &id001 !!python/object:requests.adapters.HTTPAdapter
+        _pool_block: false
+        _pool_connections: 10
+        _pool_maxsize: 10
+        config: {}
+        max_retries: !!python/object:urllib3.util.retry.Retry
+          allowed_methods: &id002 !!python/object/apply:builtins.frozenset
+          - - PUT
+            - TRACE
+            - OPTIONS
+            - GET
+            - HEAD
+            - DELETE
+          backoff_factor: 0
+          backoff_jitter: 0.0
+          backoff_max: 120
+          connect: null
+          history: !!python/tuple []
+          other: null
+          raise_on_redirect: true
+          raise_on_status: true
+          read: false
+          redirect: null
+          remove_headers_on_redirect: !!python/object/apply:builtins.frozenset
+          - - authorization
+          respect_retry_after_header: true
+          status: null
+          status_forcelist: !!set {}
+          total: 0
+      headers:
+        Accept: application/vnd.github.mercy-preview+json
+        Authorization: token ghs_jOWLWN50X3I9CJsVHz1ORVrvoY6XyH4DWY7p
+        User-Agent: PyGithub/Python
+      host: api.github.com
+      input: null
+      pool_size: 10
+      port: 443
+      protocol: https
+      retry: 0
+      session: !!python/object:requests.sessions.Session
+        adapters: !!python/object/apply:collections.OrderedDict
+        - - - https://
+            - *id001
+          - - http://
+            - !!python/object:requests.adapters.HTTPAdapter
+              _pool_block: false
+              _pool_connections: 10
+              _pool_maxsize: 10
+              config: {}
+              max_retries: !!python/object:urllib3.util.retry.Retry
+                allowed_methods: *id002
+                backoff_factor: 0
+                backoff_jitter: 0.0
+                backoff_max: 120
+                connect: null
+                history: !!python/tuple []
+                other: null
+                raise_on_redirect: true
+                raise_on_status: true
+                read: false
+                redirect: null
+                remove_headers_on_redirect: !!python/object/apply:builtins.frozenset
+                - - authorization
+                respect_retry_after_header: true
+                status: null
+                status_forcelist: !!set {}
+                total: 0
+        auth: null
+        cert: null
+        cookies: !!python/object:requests.cookies.RequestsCookieJar
+          _cookies: {}
+          _now: 1684999434
+          _policy: !!python/object:http.cookiejar.DefaultCookiePolicy
+            _allowed_domains: null
+            _blocked_domains: !!python/tuple []
+            _now: 1684999434
+            hide_cookie2: false
+            netscape: true
+            rfc2109_as_netscape: null
+            rfc2965: false
+            secure_protocols: !!python/tuple
+            - https
+            - wss
+            strict_domain: false
+            strict_ns_domain: 0
+            strict_ns_set_initial_dollar: false
+            strict_ns_set_path: false
+            strict_ns_unverifiable: false
+            strict_rfc2965_unverifiable: true
+        headers: !!python/object:requests.structures.CaseInsensitiveDict
+          _store: !!python/object/apply:collections.OrderedDict
+          - - - user-agent
+              - !!python/tuple
+                - User-Agent
+                - python-requests/2.31.0
+            - - accept-encoding
+              - !!python/tuple
+                - Accept-Encoding
+                - gzip, deflate
+            - - accept
+              - !!python/tuple
+                - Accept
+                - '*/*'
+            - - connection
+              - !!python/tuple
+                - Connection
+                - keep-alive
+        hooks:
+          response: []
+        max_redirects: 30
+        params: {}
+        proxies: {}
+        stream: false
+        trust_env: true
+        verify: true
+      timeout: 15
+      url: /repos/mlab-modules/USBI2C01/topics
+      verb: GET
+      verify: true
+    _Requester__connectionClass: !!python/name:github.Requester.HTTPSRequestsConnectionClass ''
+    _Requester__hostname: api.github.com
+    _Requester__installation_authorization: null
+    _Requester__logger: !!python/object/apply:logging.getLogger
+    - github.Requester
+    _Requester__pool_size: null
+    _Requester__port: null
+    _Requester__prefix: ''
+    _Requester__retry: null
+    _Requester__scheme: https
+    _Requester__timeout: 15
+    _Requester__userAgent: PyGithub/Python
+    _Requester__verify: true
+    _frameBuffer: []
+    _frameCount: 0
+    oauth_scopes: null
+    per_page: 30
+    rate_limiting: !!python/tuple
+    - 996
+    - 1000
+    rate_limiting_resettime: 1685002925
+  _PaginatedList__totalCount: null
+  _reversed: false
 github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
 homepage: false
