@@ -4,7 +4,7 @@ github_branches:
 - USBI2C01A
 github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
-homepage: false
+homepage: true
 image: doc/img/USBI2C01A_small-7.jpg
 images:
 - doc/img/USBI2C01A_small-7.jpg
@@ -22,7 +22,7 @@ images:
 - doc/gen/USBI2C01-schematic.svg
 - doc/gen/img/USBI2C01-top.svg
 issues: 1
-mark: 50
+mark: 90
 mod_ibom: hw/cam_profi/ibom/USBI2C01-ibom.html
 mod_scheme: doc/gen/USBI2C01-schematic.pdf
 tags:
