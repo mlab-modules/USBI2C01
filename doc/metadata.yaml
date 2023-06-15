@@ -9,19 +9,19 @@ image: doc/img/USBI2C01A_small-7.jpg
 images:
 - doc/img/USBI2C01A_small-5.jpg
 - doc/img/USBI2C01A_MAG01A_top_big.jpg
-- doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_top_small.jpg
-- doc/img/USBI2C01A_small-4.jpg
 - doc/img/USBI2C01A_small-7.jpg
-- doc/img/USBI2C01A_QRcode.png
-- doc/img/USBI2C01A_sides.png
+- doc/img/USBI2C01A_small-4.jpg
+- doc/img/USBI2C01A_top_big.jpg
 - doc/gen/img/USBI2C01-bottom.png
 - doc/gen/img/USBI2C01-top.png
+- doc/img/USBI2C01A_QRcode.png
+- doc/img/USBI2C01A_sides.png
+- hw/cam_profi/docs/USBI2C01A-assembly_page_02.svg
+- hw/cam_profi/docs/USBI2C01A-assembly_page_01.svg
 - doc/gen/USBI2C01-schematic.svg
 - doc/gen/img/USBI2C01-top.svg
 - doc/gen/img/USBI2C01-bottom.svg
-- hw/cam_profi/docs/USBI2C01A-assembly_page_01.svg
-- hw/cam_profi/docs/USBI2C01A-assembly_page_02.svg
 issues: 1
 mark: 90
 mod_ibom: hw/cam_profi/ibom/USBI2C01-ibom.html
