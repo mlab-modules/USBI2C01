@@ -33,7 +33,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/erc.kibot.yaml
           schema: ${{ env.schema }}
@@ -51,7 +51,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/drc.kibot.yaml
           schema: ${{ env.schema }}
@@ -69,7 +69,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/schematics.kibot.yaml
           schema: ${{ env.schema }}
@@ -93,14 +93,14 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/placement.kibot.yaml
           schema: ${{ env.schema }}
           board: ${{ env.board }}
           dir: ${{ env.dir }}_docs
         
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/xml.kibot.yaml
           schema: ${{ env.schema }}
@@ -116,9 +116,7 @@ jobs:
         if: ${{ success() }}
         with:
           name: doc_xml
-          path: |
-            hw/sch_pcb/*.xml
-            hw/sch_pcb/*.csv
+          path: hw/sch_pcb/*.xml
 
       # Zde se zahazuji debugovaci videa
       - uses: actions/upload-artifact@v3
@@ -140,7 +138,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/report.kibot.yaml
           schema: ${{ env.schema }}
@@ -164,7 +162,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/ibom.kibot.yaml
           schema: ${{ env.schema }}
@@ -193,7 +191,7 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6        
+      - uses: INTI-CMNB/KiBot@v2_dk7        
         with:
           config: ${{ env.kibot }}/gerbers.kibot.yaml
           schema: ${{ env.schema }}
@@ -222,14 +220,14 @@ jobs:
           token: ${{ secrets.pat }}
           ref: ${{ github.head_ref }}
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/cad.kibot.yaml
           schema: ${{ env.schema }}
           board: ${{ env.board }}
           dir: ${{ env.dir }}_cad
           
-      - uses: INTI-CMNB/KiBot@v2_dk6
+      - uses: INTI-CMNB/KiBot@v2_dk7
         with:
           config: ${{ env.kibot }}/render.kibot.yaml
           schema: ${{ env.schema }}
@@ -288,7 +286,7 @@ jobs:
                 
         cp -r doc_img/* doc/gen/img || true
         cp -r doc_cad/cad/* doc/gen || true
-        mv -r hw_cam_profi/PnP hw/cam_profi/PnP || true
+        mv -r hw_cam_profi/PnP/* hw/cam_profi/PnP || true
         cp -r hw_cam_profi/* hw/cam_profi/gbr || true
         cp -r doc_sch/docs/* doc/gen || true
         cp -r doc_xml/* hw/cam_profi || true
