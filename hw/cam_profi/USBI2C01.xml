@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/USBI2C01.kicad_sch</source>
-    <date>Wed Jul  5 00:41:46 2023</date>
-    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <date>Wed Jul  5 00:47:20 2023</date>
+    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>USBI2C01</title>
@@ -199,6 +199,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_1x02" description="1x02 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
+      <property name="ki_description" value="1x02 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="1x02, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>49575217-40b0-4890-8acf-12982cca52b5</tstamps>
     </comp>
@@ -208,6 +210,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
+      <property name="ki_description" value="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="ki_keywords" value="2x05, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63489ebf-0f52-43a6-a0ab-158b1a7d4988</tstamps>
     </comp>
@@ -217,6 +221,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_1x03" description="1x03 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
+      <property name="ki_description" value="1x03 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="1x03, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3bca658b-a598-4669-a7cb-3f9b5f47bb5a</tstamps>
     </comp>
@@ -226,6 +232,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
+      <property name="ki_description" value="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>278a91dc-d57d-4a5c-a045-34b6bd84131f</tstamps>
     </comp>
@@ -235,6 +243,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x05_PARALLEL" description="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
+      <property name="ki_description" value="2x05 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="ki_keywords" value="2x05, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9c2999b2-1cf1-4204-9d23-243401b77aa3</tstamps>
     </comp>
@@ -244,6 +254,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_2x03_PARALLEL" description="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
+      <property name="ki_description" value="2x03 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>73ee7e03-97a8-4121-b568-c25f3934a935</tstamps>
     </comp>
@@ -253,6 +265,8 @@
       <libsource lib="MLAB_HEADER" part="HEADER_1x01" description="1x01 2.54 mm pitch header"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="USBI2C01.kicad_sch"/>
+      <property name="ki_description" value="1x01 2.54 mm pitch header"/>
+      <property name="ki_keywords" value="1x01, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>aae6bc05-6036-4fc6-8be7-c70daf5c8932</tstamps>
     </comp>
@@ -557,110 +571,110 @@
       <node ref="X5" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
       <node ref="X6" pin="P$1" pinfunction="P$1" pintype="bidirectional"/>
     </net>
-    <net code="4" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X1" pin="P$16" pinfunction="VPP" pintype="bidirectional"/>
-    </net>
-    <net code="5" name="Net-(D1-PadA)">
+    <net code="4" name="Net-(D1-PadA)">
       <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
       <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(D2-PadA)">
-      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
-      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="7" name="Net-(D2-PadK)">
+    <net code="5" name="Net-(D2-C)">
       <node ref="D2" pin="K" pinfunction="C" pintype="passive"/>
       <node ref="SV4" pin="1" pintype="input"/>
       <node ref="SV4" pin="2" pintype="input"/>
       <node ref="X1" pin="P$23" pinfunction="GPIO0-TXT" pintype="bidirectional"/>
     </net>
-    <net code="8" name="Net-(D3-PadA)">
-      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
-      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="6" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(D3-PadK)">
+    <net code="7" name="Net-(D3-C)">
       <node ref="D3" pin="K" pinfunction="C" pintype="passive"/>
       <node ref="SV4" pin="3" pintype="input"/>
       <node ref="SV4" pin="4" pintype="input"/>
       <node ref="X1" pin="P$22" pinfunction="GPIO1-RXT" pintype="bidirectional"/>
     </net>
-    <net code="10" name="Net-(D4-Pad4)">
-      <node ref="D4" pin="4" pintype="passive"/>
-      <node ref="X1" pin="P$4" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="X2" pin="2" pinfunction="DATA-" pintype="bidirectional"/>
+    <net code="8" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(D4-Pad5)">
-      <node ref="D4" pin="5" pintype="passive"/>
-      <node ref="X1" pin="P$3" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="X2" pin="3" pinfunction="DATA+" pintype="bidirectional"/>
-    </net>
-    <net code="12" name="Net-(P1-Pad1)">
-      <node ref="P1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X2" pin="1" pinfunction="+5V" pintype="bidirectional"/>
-    </net>
-    <net code="13" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="X1" pin="P$9" pinfunction="/RST" pintype="bidirectional"/>
-    </net>
-    <net code="14" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="SV1" pin="2" pintype="input"/>
-      <node ref="X1" pin="P$5" pinfunction="VIO" pintype="bidirectional"/>
-    </net>
-    <net code="15" name="Net-(SV2-Pad3)">
-      <node ref="SV2" pin="3" pintype="input"/>
-      <node ref="SV2" pin="4" pintype="input"/>
-      <node ref="X1" pin="P$1" pinfunction="SDA" pintype="bidirectional"/>
-    </net>
-    <net code="16" name="Net-(SV2-Pad5)">
+    <net code="9" name="Net-(SV2-Pad5)">
       <node ref="SV2" pin="5" pintype="input"/>
       <node ref="SV2" pin="6" pintype="input"/>
       <node ref="SV3" pin="2" pintype="input"/>
     </net>
-    <net code="17" name="Net-(SV2-Pad7)">
-      <node ref="SV2" pin="7" pintype="input"/>
-      <node ref="SV2" pin="8" pintype="input"/>
-      <node ref="X1" pin="P$24" pinfunction="SCL" pintype="bidirectional"/>
+    <net code="10" name="Net-(X1-D+)">
+      <node ref="D4" pin="5" pintype="passive"/>
+      <node ref="X1" pin="P$3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="X2" pin="3" pinfunction="DATA+" pintype="bidirectional"/>
     </net>
-    <net code="18" name="Net-(SV4-Pad5)">
+    <net code="11" name="Net-(X1-D-)">
+      <node ref="D4" pin="4" pintype="passive"/>
+      <node ref="X1" pin="P$4" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="X2" pin="2" pinfunction="DATA-" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(X1-GPIO2)">
       <node ref="SV4" pin="5" pintype="input"/>
       <node ref="SV4" pin="6" pintype="input"/>
       <node ref="X1" pin="P$21" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="19" name="Net-(SV5-Pad1)">
+    <net code="13" name="Net-(X1-GPIO3)">
       <node ref="SV5" pin="1" pintype="input"/>
       <node ref="SV5" pin="2" pintype="input"/>
       <node ref="X1" pin="P$20" pinfunction="GPIO3" pintype="bidirectional"/>
     </net>
-    <net code="20" name="Net-(SV5-Pad3)">
+    <net code="14" name="Net-(X1-GPIO4)">
       <node ref="SV5" pin="3" pintype="input"/>
       <node ref="SV5" pin="4" pintype="input"/>
       <node ref="X1" pin="P$15" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="21" name="Net-(SV5-Pad5)">
+    <net code="15" name="Net-(X1-GPIO5)">
       <node ref="SV5" pin="5" pintype="input"/>
       <node ref="SV5" pin="6" pintype="input"/>
       <node ref="X1" pin="P$14" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
-    <net code="22" name="Net-(SV5-Pad7)">
+    <net code="16" name="Net-(X1-GPIO6)">
       <node ref="SV5" pin="7" pintype="input"/>
       <node ref="SV5" pin="8" pintype="input"/>
       <node ref="X1" pin="P$13" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="23" name="Net-(SV5-Pad10)">
+    <net code="17" name="Net-(X1-GPIO7-CLK)">
       <node ref="SV5" pin="10" pintype="input"/>
       <node ref="SV5" pin="9" pintype="input"/>
       <node ref="X1" pin="P$12" pinfunction="GPIO7-CLK" pintype="bidirectional"/>
     </net>
-    <net code="24" name="Net-(SV7-Pad1)">
+    <net code="18" name="Net-(X1-SCL)">
+      <node ref="SV2" pin="7" pintype="input"/>
+      <node ref="SV2" pin="8" pintype="input"/>
+      <node ref="X1" pin="P$24" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(X1-SDA)">
+      <node ref="SV2" pin="3" pintype="input"/>
+      <node ref="SV2" pin="4" pintype="input"/>
+      <node ref="X1" pin="P$1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(X1-VIO)">
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SV1" pin="2" pintype="input"/>
+      <node ref="X1" pin="P$5" pinfunction="VIO" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(X1-VPP)">
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X1" pin="P$16" pinfunction="VPP" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(X1-{slash}RST)">
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X1" pin="P$9" pinfunction="/RST" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(X1-{slash}SUSPEND)">
       <node ref="SV7" pin="1" pintype="input"/>
       <node ref="X1" pin="P$17" pinfunction="/SUSPEND" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(X2-+5V)">
+      <node ref="P1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="X2" pin="1" pinfunction="+5V" pintype="bidirectional"/>
     </net>
     <net code="25" name="unconnected-(D4-Pad3)">
       <node ref="D4" pin="3" pintype="passive+no_connect"/>
     </net>
-    <net code="26" name="unconnected-(X1-PadP$11)">
+    <net code="26" name="unconnected-(X1-SUSPEND-PadP$11)">
       <node ref="X1" pin="P$11" pinfunction="SUSPEND" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
