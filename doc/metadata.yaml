@@ -5,7 +5,7 @@ github_branches:
 github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
 homepage: true
-image: doc/img/USBI2C01A_small-7.jpg
+title_image: doc/img/USBI2C01A_small-7.jpg
 images:
 - doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_small-4.jpg
