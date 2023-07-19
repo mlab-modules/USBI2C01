@@ -5,7 +5,6 @@ github_branches:
 github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
 homepage: true
-title_image: doc/img/USBI2C01A_small-7.jpg
 images:
 - doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_small-4.jpg
@@ -41,4 +40,5 @@ tags:
 - mlab-kicad
 - pcb
 title: USBI2C01
-updated: '2023-07-10T00:47:07.510261+00:00'
+title_image: doc/img/USBI2C01A_small-7.jpg
+updated: '2023-07-19T21:05:35.360691+00:00'
