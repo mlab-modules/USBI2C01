@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,7.0.5.1-1-g8f565ef7f0-dirty-deb11*%
-%TF.CreationDate,2023-07-21T03:37:26+00:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.7-7.0.7~ubuntu23.04.1*%
+%TF.CreationDate,2023-09-11T00:32:31+00:00*%
 %TF.ProjectId,USBI2C01,55534249-3243-4303-912e-6b696361645f,I2CUSB01A*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.5.1-1-g8f565ef7f0-dirty-deb11) date 2023-07-21 03:37:26*
+G04 Created by KiCad (PCBNEW 7.0.7-7.0.7~ubuntu23.04.1) date 2023-09-11 00:32:31*
 %MOMM*%
 %LPD*%
 G01*
