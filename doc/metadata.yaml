@@ -7,16 +7,16 @@ github_url: https://github.com/mlab-modules/USBI2C01
 homepage: true
 image_title: doc/gen/img/USBI2C01-top.png
 images:
-- doc/img/USBI2C01A_top_big.jpg
-- doc/img/USBI2C01A_small-4.jpg
-- doc/img/USBI2C01A_small-7.jpg
 - doc/img/USBI2C01A_MAG01A_top_big.jpg
+- doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_small-5.jpg
+- doc/img/USBI2C01A_small-4.jpg
 - doc/img/USBI2C01A_top_small.jpg
+- doc/img/USBI2C01A_small-7.jpg
+- doc/gen/img/USBI2C01-bottom.png
+- doc/gen/img/USBI2C01-top.png
 - doc/img/USBI2C01A_sides.png
 - doc/img/USBI2C01A_QRcode.png
-- doc/gen/img/USBI2C01-top.png
-- doc/gen/img/USBI2C01-bottom.png
 - doc/gen/USBI2C01-schematic.svg
 - doc/gen/img/USBI2C01-bottom.svg
 - doc/gen/img/USBI2C01-top.svg
@@ -41,4 +41,4 @@ tags:
 - mlab-kicad
 - pcb
 title: USBI2C01
-updated: '2023-07-21T03:39:47.578054+00:00'
+updated: '2023-09-11T00:31:51.152235+00:00'
