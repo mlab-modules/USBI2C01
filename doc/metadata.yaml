@@ -24,6 +24,7 @@ images:
 - hw/cam_profi/assembly/USBI2C01-assembly_page_01.svg
 issues: 1
 mark: 90
+status: 2
 mod_ibom: hw/cam_profi/USBI2C01-ibom.html
 mod_scheme: doc/gen/USBI2C01-schematic.pdf
 tags:
