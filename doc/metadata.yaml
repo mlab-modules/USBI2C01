@@ -5,25 +5,24 @@ github_branches:
 github_description: "USB device to I\xB2C master adapter with Linux kernel support"
 github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
-tindie_url: https://www.tindie.com/products/mlab-project/mlab-albase-duralumin-base-board/
 homepage: true
 image_title: doc/gen/img/USBI2C01-top.png
 images:
-- doc/img/USBI2C01A_small-4.jpg
-- doc/img/USBI2C01A_small-7.jpg
-- doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_MAG01A_top_big.jpg
-- doc/img/USBI2C01A_small-5.jpg
+- doc/img/USBI2C01A_small-4.jpg
+- doc/img/USBI2C01A_top_big.jpg
+- doc/img/USBI2C01A_small-7.jpg
 - doc/img/USBI2C01A_top_small.jpg
-- doc/img/USBI2C01A_QRcode.png
+- doc/img/USBI2C01A_small-5.jpg
 - doc/img/USBI2C01A_sides.png
+- doc/img/USBI2C01A_QRcode.png
 - doc/gen/img/USBI2C01-bottom.png
 - doc/gen/img/USBI2C01-top.png
 - doc/gen/USBI2C01-schematic.svg
-- doc/gen/img/USBI2C01-bottom.svg
 - doc/gen/img/USBI2C01-top.svg
-- hw/cam_profi/assembly/USBI2C01-assembly_page_02.svg
+- doc/gen/img/USBI2C01-bottom.svg
 - hw/cam_profi/assembly/USBI2C01-assembly_page_01.svg
+- hw/cam_profi/assembly/USBI2C01-assembly_page_02.svg
 issues: 1
 mark: 90
 mod_ibom: hw/cam_profi/USBI2C01-ibom.html
@@ -43,5 +42,6 @@ tags:
 - kicad-project
 - mlab-kicad
 - pcb
+tindie_url: https://www.tindie.com/products/mlab-project/mlab-albase-duralumin-base-board/
 title: USBI2C01
-updated: '2023-09-17T11:52:21.277203+00:00'
+updated: '2024-02-21T12:39:28.609225+00:00'
