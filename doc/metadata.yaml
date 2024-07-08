@@ -6,7 +6,7 @@ github_description: "USB device to I\xB2C master adapter with Linux kernel suppo
 github_repo: USBI2C01
 github_url: https://github.com/mlab-modules/USBI2C01
 homepage: true
-image_title: doc/gen/img/USBI2C01-top.png
+image_title: doc/img/USBI2C01A_small-7.jpg
 images:
 - doc/img/USBI2C01A_MAG01A_top_big.jpg
 - doc/img/USBI2C01A_small-4.jpg
@@ -42,6 +42,6 @@ tags:
 - kicad-project
 - mlab-kicad
 - pcb
-tindie_url: https://www.tindie.com/products/mlab-project/mlab-albase-duralumin-base-board/
+tindie_url: https://www.tindie.com/products/33745/
 title: USBI2C01
 updated: '2024-02-21T12:43:59.066246+00:00'
