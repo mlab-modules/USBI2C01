@@ -33,7 +33,7 @@ The converter is equipped with a set of GPIO ports that can be controlled via US
 <a href="https://www.tindie.com/products/33745/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78" align="right"></a>
 ## How to get this device? 
 
-This device is sold by [Universal Scientific Technologies s.r.o.](www.ust.cz). You can buy it online trought [Tindie MLAB store]() or interested in more our products, do not be afraid to [contact us](mailto:sale@ust.cz
+This device is sold by [Universal Scientific Technologies s.r.o.](www.ust.cz). You can buy it online trought [Tindie MLAB store](https://www.tindie.com/products/33745/) or interested in more our products, do not be afraid to [contact us](mailto:sale@ust.cz
 ).
 
 ## Drivers and software
