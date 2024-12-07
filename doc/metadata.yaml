@@ -8,14 +8,14 @@ github_url: https://github.com/mlab-modules/USBI2C01
 homepage: true
 image_title: doc/img/USBI2C01A_small-7.jpg
 images:
-- doc/img/USBI2C01A_small-4.jpg
-- doc/img/USBI2C01A_top_small.jpg
-- doc/img/USBI2C01A_top_big.jpg
 - doc/img/USBI2C01A_small-5.jpg
-- doc/img/USBI2C01A_MAG01A_top_big.jpg
+- doc/img/USBI2C01A_top_big.jpg
+- doc/img/USBI2C01A_top_small.jpg
+- doc/img/USBI2C01A_small-4.jpg
 - doc/img/USBI2C01A_small-7.jpg
-- doc/gen/img/USBI2C01-bottom.png
+- doc/img/USBI2C01A_MAG01A_top_big.jpg
 - doc/gen/img/USBI2C01-top.png
+- doc/gen/img/USBI2C01-bottom.png
 - doc/img/USBI2C01A_QRcode.png
 - doc/img/USBI2C01A_sides.png
 - doc/gen/USBI2C01-schematic.svg
@@ -44,4 +44,4 @@ tags:
 - pcb
 tindie_url: https://www.tindie.com/products/33745/
 title: USBI2C01
-updated: '2024-07-08T22:28:31.726689+00:00'
+updated: '2024-12-07T22:33:40.037333+00:00'
